@@ -1,7 +1,12 @@
+import Layout from './Components/Layout';
+import Home from './Pages/Home';
+import './assets/css/App.css'
 function App() {
   return (
     <>
-      <h1>55</h1>
+      <Layout>
+        <Home/>
+      </Layout>
     </>
   );
 }
